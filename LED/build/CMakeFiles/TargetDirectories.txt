@@ -1,0 +1,3 @@
+/workspace/LED/build/CMakeFiles/startup.elf.dir
+/workspace/LED/build/CMakeFiles/edit_cache.dir
+/workspace/LED/build/CMakeFiles/rebuild_cache.dir

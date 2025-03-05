@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -x assembler-with-cpp -mcpu=cortex-m7 -mthumb -g -o CMakeFiles/startup.elf.dir/startup_stm32h743xx.S.obj -c /workspace/LED/startup_stm32h743xx.S",
+  "file": "/workspace/LED/startup_stm32h743xx.S"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Application/main.c.obj -c /workspace/LED/Application/main.c",
+  "file": "/workspace/LED/Application/main.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Application/stm32h7xx_it.c.obj -c /workspace/LED/Application/stm32h7xx_it.c",
+  "file": "/workspace/LED/Application/stm32h7xx_it.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/CMSIS/Device/Source/system_stm32h7xx.c.obj -c /workspace/LED/CMSIS/Device/Source/system_stm32h7xx.c",
+  "file": "/workspace/LED/CMSIS/Device/Source/system_stm32h7xx.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_msp.c.obj -c /workspace/LED/Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_msp.c",
+  "file": "/workspace/LED/Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_msp.c"
+},
+{
+  "directory": "/workspace/LED/build",
+  "command": "/opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc -DCMAKE_SKIP_COMPILER_ID_TESTS=1 -I/workspace/LED/CMSIS/Compiler -I/workspace/LED/CMSIS/Core -I/workspace/LED/CMSIS/Device/Include -I/workspace/LED/Application -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED/Drivers/User/Inc -I/workspace/LED/Scripts -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99 -o CMakeFiles/startup.elf.dir/Drivers/User/Src/led.c.obj -c /workspace/LED/Drivers/User/Src/led.c",
+  "file": "/workspace/LED/Drivers/User/Src/led.c"
+}
+]

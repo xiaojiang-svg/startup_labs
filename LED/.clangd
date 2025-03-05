@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [-Wno-format]
+  Compiler: /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc
+Diagnostics:
+  ClangTidy:
+    Remove: [bugprone-sizeof-expression]
