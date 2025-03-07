@@ -681,6 +681,30 @@ Drivers/User/Src/led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/startup.elf.dir/build.make CMakeFiles/startup.elf.dir/Drivers/User/Src/led.c.s
 .PHONY : Drivers/User/Src/led.c.s
 
+Drivers/User/Src/tim3.obj: Drivers/User/Src/tim3.c.obj
+.PHONY : Drivers/User/Src/tim3.obj
+
+# target to build an object file
+Drivers/User/Src/tim3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/startup.elf.dir/build.make CMakeFiles/startup.elf.dir/Drivers/User/Src/tim3.c.obj
+.PHONY : Drivers/User/Src/tim3.c.obj
+
+Drivers/User/Src/tim3.i: Drivers/User/Src/tim3.c.i
+.PHONY : Drivers/User/Src/tim3.i
+
+# target to preprocess a source file
+Drivers/User/Src/tim3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/startup.elf.dir/build.make CMakeFiles/startup.elf.dir/Drivers/User/Src/tim3.c.i
+.PHONY : Drivers/User/Src/tim3.c.i
+
+Drivers/User/Src/tim3.s: Drivers/User/Src/tim3.c.s
+.PHONY : Drivers/User/Src/tim3.s
+
+# target to generate assembly for a file
+Drivers/User/Src/tim3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/startup.elf.dir/build.make CMakeFiles/startup.elf.dir/Drivers/User/Src/tim3.c.s
+.PHONY : Drivers/User/Src/tim3.c.s
+
 bootloader.obj: bootloader.S.obj
 .PHONY : bootloader.obj
 
@@ -775,6 +799,9 @@ help:
 	@echo "... Drivers/User/Src/led.obj"
 	@echo "... Drivers/User/Src/led.i"
 	@echo "... Drivers/User/Src/led.s"
+	@echo "... Drivers/User/Src/tim3.obj"
+	@echo "... Drivers/User/Src/tim3.i"
+	@echo "... Drivers/User/Src/tim3.s"
 	@echo "... bootloader.obj"
 	@echo "... startup_self_define.obj"
 .PHONY : help

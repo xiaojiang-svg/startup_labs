@@ -46,4 +46,8 @@ CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_msp.c.obj:
  /workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
  /workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
  /workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
- /workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
+ /workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+ /workspace/LED_RAM_EXEC/Drivers/User/Inc/led.h \
+ /workspace/LED_RAM_EXEC/Drivers/User/Inc/tim3.h \
+ /workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+ /workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h

@@ -50,6 +50,14 @@ defined in linker script */
 BootLoader:
   ldr sp, =_estack  /* Set stack pointer */
 
+/* confirm if the code has been to SRAM */
+  ldr r0, =_svector_text
+  ldr r1, =_sivector_text
+  ldr r0, [r0]
+  ldr r1, [r1]
+  cmp r0, r1
+  beq NoCopy
+
 /* Copy the isr_vector and text section initializers from flash to SRAM*/
   ldr r0, =_svector_text
   ldr r1, =_evector_text
@@ -67,9 +75,10 @@ LoopCopyCodeInit:
   cmp r4, r1
   bcc CopyCodeInit
 
+NoCopy:
 /* change SCB->VTOR to new RAM value */
   ldr r1, =SCB_VTOR
-  ldr r2, =#0x20000000 /* .ld链接脚本中的DTCMRAM地址 */
+  ldr r2, =#0x00000000 /* .ld链接脚本中的DTCMRAM地址 */
   str r2, [r1]
 
   ldr r0, =Reset_Handler

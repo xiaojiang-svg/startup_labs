@@ -46,7 +46,7 @@ MEMORY
   FLASH (rx)     : ORIGIN = 0x08000000, LENGTH = 2048K
   DTCMRAM (xrw)  : ORIGIN = 0x20000000, LENGTH = 128K
   RAM_D1 (rw)   : ORIGIN = 0x24000000, LENGTH = 512K
-  RAM_D2 (xrw)   : ORIGIN = 0x30000000, LENGTH = 288K
+  RAM_D2 (rw)   : ORIGIN = 0x30000000, LENGTH = 288K
   RAM_D3 (rw)   : ORIGIN = 0x38000000, LENGTH = 64K
   ITCMRAM (xrw)  : ORIGIN = 0x00000000, LENGTH = 64K
 }
@@ -77,7 +77,7 @@ SECTIONS
     _svector_text = .;
     KEEP(*(.isr_vector)) /* Startup code */
     . = ALIGN(4);
-  } >DTCMRAM AT>FLASH
+  } >ITCMRAM AT>FLASH
 
   /* The program code and other data goes into RAM */
   .text :
@@ -94,7 +94,7 @@ SECTIONS
 
     . = ALIGN(4);
     _etext = .;        /* define a global symbols at end of code */
-  } >DTCMRAM AT>FLASH
+  } >ITCMRAM AT>FLASH
 
   /* Constant data goes into RAM */
   .rodata :
@@ -104,7 +104,7 @@ SECTIONS
     *(.rodata*)        /* .rodata* sections (constants, strings, etc.) */
     . = ALIGN(4);
     _evector_text = .;
-  } >DTCMRAM AT>FLASH
+  } >ITCMRAM AT>FLASH
 
   .ARM.extab   : { *(.ARM.extab* .gnu.linkonce.armextab.*) } >FLASH
   .ARM : {

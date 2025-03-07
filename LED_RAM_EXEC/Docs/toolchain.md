@@ -135,6 +135,42 @@ Misc Controls：无
 -D__UVISION_VERSION="524" -D_RTE_ -DSTM32H743xx -DUSE_HAL_DRIVER -DSTM32H743xx
 -o STM32H743/*.o -MD
 
+**基本参数**
+-xc将所有输入文件视为C语言
+-- target设置目标架构为ARM(无OS)
+-mcpu目标为Cortex-M7，为了优化代码，使其适用于基于这个内核的芯片
+-mfpu使用ARMv7E-M的VPFv5 16个双精度浮点寄存器
+-mfloat-abi=hard使用硬件浮点运算---FPU
+
+**代码优化与编译选项**
+-fno-rtti禁用C++的运行时类型信息（RTTI）
+-funsigned-char让char变量默认为无符号类型(unsigned char)，避免char作为signed时导致的数值错误
+-fshort-enums，让enum变量占用最小的字节数(默认为int，启用后可能变为uint8_t或者uint16_t)
+-fshort-wchar，让wchar_t变为16位，默认可能为32位，与CMSIS或MicroLIB兼容
+-D__MICROLIB使用MicroLIB轻量级C库，代码更小，但不支持完整的标准C库特性，如动态分配内存--molloc()
+-gdwarf-3 生成DWARF v3格式的调试信息，用于调试
+-Oz进行极致优化，以最小化代码体积，比-Os更加极限
+-ffunction-sections将每个函数放入独立的.text段，结合--gc-sections丢弃未使用的函数
+
+**预处理器相关**
+-D_UVISION_VERSION="524"
+-D_RTE用于Keil RTE组件管理，我不懂这是啥
+-DSTM32H743xx这个其实在CMakeLists中还是toolchain.cmake中我也加了，可以自行查看
+-DUSE_HAL_DRIVER
+
+**代码警告**
+允许#pragma pack()而不会报-Wpacked警告；忽略-Wmissing-prototypes，即使某些函数没有声明；允许-Wsign-conversion，不会因int->uint8_t报警；忽略某些Doxygen相关的文档警告；-Wno-nonportable-include-path允许非标准路径的#include
+
+**头文件路径**
+-I指定头文件路径
+
+**输出文件**
+-o STM32H743/*.o编译后存放在STM32H743目录下
+-MD 生成.d依赖文件(用于make或ninja构建系统)
+
+
+**_写到这里我突然想起来使用这个编译参数的项目读者没有参考，所以我现在引入一个LED-twinkle至根目录下，大家可以自行放到Keil中打开，这个工程不是我自身创建，由“反客科技公司”创建，我只是引用_**
+
 ### 汇编配置
 条件汇编控制符号：无
 语言支持特性和代码生成：
@@ -158,8 +194,19 @@ Misc Controls：无
 --xref -o STM32H743\*.o
 --depend STM32H743\*.d
 
+
+
 ### 链接配置
 ![alt text](./Picture/Keil_Linker.png)
+.fp.dp启用双精度浮点
+--library_type=microlib指定库类型
+--strict启用严格模式，使编译器更加严格地检查代码，避免潜在的错误
+--scatter "STM32H743\STM32H743.sct"定义链接脚本
+--summary_stderr输出编译和链接信息，便于调试
+--info summarysizes --info sizes --info totals --info unused --info veneers生成整体内存使用报告，显示每个段的大小，显示总的代码和数据大小，列出未使用的代码和数据，列出编译器生成的veneer代码
+--map --load_addr_map_info生成映射文件，其中包含所有富豪的内存地址和大小，在.map文件中包含加载地址信息
+--list "STM32H743.map"生成详细的链接映射文件
+--xref --callgraph --symbols生成交叉引用表，显示那些函数或变量被引用，生成调用图，用于分析函数之间的调用关系，列出所有符号
 
 ### 输出配置
 Linker Listing
@@ -187,6 +234,8 @@ C Compiler Listing和 C Preprocessor Listing(这两个没配置)
 像ARM公司的话，他虽然不生产处理器，知识把IP核卖给处理器生产厂家，下面的处理器生产厂家就提供了各种各样的工具链来支持用户对自己的处理器进行开发。
 
 我们就选用了一个比较通用的嵌入式工具链，能够在编译时自己定义处理器架构，并且能够搭配一些与其微架构相关的参数，让编译得到的机器码的执行性能能够更高。
+
+我还没来得及写，因为我马上下班了，所以大家可以先看着CMakeLists.txt和toolchain.cmake里面有相关的参数可以转化成命令行的形式。先给大家补充一下关于keil中的编译参数到底是什么意思。
 
 ### 编译配置
 

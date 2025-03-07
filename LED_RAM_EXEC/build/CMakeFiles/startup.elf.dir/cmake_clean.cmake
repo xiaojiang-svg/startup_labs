@@ -45,6 +45,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/startup.elf.dir/Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_msp.c.obj.d"
   "CMakeFiles/startup.elf.dir/Drivers/User/Src/led.c.obj"
   "CMakeFiles/startup.elf.dir/Drivers/User/Src/led.c.obj.d"
+  "CMakeFiles/startup.elf.dir/Drivers/User/Src/tim3.c.obj"
+  "CMakeFiles/startup.elf.dir/Drivers/User/Src/tim3.c.obj.d"
   "CMakeFiles/startup.elf.dir/bootloader.S.obj"
   "CMakeFiles/startup.elf.dir/startup_self_define.S.obj"
   "output/startup.elf"

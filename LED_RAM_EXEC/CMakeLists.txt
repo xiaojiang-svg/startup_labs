@@ -17,7 +17,7 @@ project(startup)
 file(GLOB_RECURSE SRC_C_FILES ${ROOT}/Application/*.c ${ROOT}/CMSIS/*.c ${ROOT}/Drivers/*.c ${ROOT}/Middlewares/*.c)
 file(GLOB_RECURSE SRC_CXX_FILES ${ROOT}/Application/*.cpp ${ROOT}/CMSIS/*.cpp ${ROOT}/Drivers/*.cpp ${ROOT}/Middlewares/*.cpp)
 
-include_directories(${ROOT}/CMSIS/Compiler ${ROOT}/CMSIS/Core ${ROOT}/CMSIS/Device/Include ${ROOT}/Application ${ROOT}/Drivers/STM32H7xx_HAL_Driver ${ROOT}/Drivers/STM32H7xx_HAL_Driver/Inc ${ROOT}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy ${ROOT}/Drivers/User/Inc ${ROOT}/Scripts)
+include_directories(${ROOT}/CMSIS/Compiler ${ROOT}/CMSIS/Core ${ROOT}/CMSIS/Device/Include ${ROOT}/Application ${ROOT}/Drivers/STM32H7xx_HAL_Driver/Inc ${ROOT}/Drivers/STM32H7xx_HAL_Driver ${ROOT}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy ${ROOT}/Drivers/User/Inc ${ROOT}/Scripts)
 
 set_source_files_properties(${ROOT}/startup_self_define.S PROPERTIES LANGUAGE ASM)
 set_source_files_properties(${ROOT}/bootloader.S PROPERTIES LANGUAGE ASM)

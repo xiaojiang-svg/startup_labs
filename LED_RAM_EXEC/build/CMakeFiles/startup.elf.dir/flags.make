@@ -5,13 +5,13 @@
 # compile C with /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DCMAKE_SKIP_COMPILER_ID_TESTS=1
 
-ASM_INCLUDES = -I/workspace/LED_RAM_EXEC/CMSIS/Compiler -I/workspace/LED_RAM_EXEC/CMSIS/Core -I/workspace/LED_RAM_EXEC/CMSIS/Device/Include -I/workspace/LED_RAM_EXEC/Application -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED_RAM_EXEC/Drivers/User/Inc -I/workspace/LED_RAM_EXEC/Scripts
+ASM_INCLUDES = -I/workspace/LED_RAM_EXEC/CMSIS/Compiler -I/workspace/LED_RAM_EXEC/CMSIS/Core -I/workspace/LED_RAM_EXEC/CMSIS/Device/Include -I/workspace/LED_RAM_EXEC/Application -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED_RAM_EXEC/Drivers/User/Inc -I/workspace/LED_RAM_EXEC/Scripts
 
 ASM_FLAGS = -x assembler-with-cpp -mcpu=cortex-m7 -mthumb -g
 
 C_DEFINES = -DCMAKE_SKIP_COMPILER_ID_TESTS=1
 
-C_INCLUDES = -I/workspace/LED_RAM_EXEC/CMSIS/Compiler -I/workspace/LED_RAM_EXEC/CMSIS/Core -I/workspace/LED_RAM_EXEC/CMSIS/Device/Include -I/workspace/LED_RAM_EXEC/Application -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED_RAM_EXEC/Drivers/User/Inc -I/workspace/LED_RAM_EXEC/Scripts
+C_INCLUDES = -I/workspace/LED_RAM_EXEC/CMSIS/Compiler -I/workspace/LED_RAM_EXEC/CMSIS/Core -I/workspace/LED_RAM_EXEC/CMSIS/Device/Include -I/workspace/LED_RAM_EXEC/Application -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver -I/workspace/LED_RAM_EXEC/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I/workspace/LED_RAM_EXEC/Drivers/User/Inc -I/workspace/LED_RAM_EXEC/Scripts
 
 C_FLAGS = -mcpu=cortex-m7 -mthumb -ffreestanding -fno-builtin -DSTM32H743xx -DUSE_HAL_DRIVER -O0 -g -std=gnu99
 
