@@ -1,0 +1,31 @@
+CMakeFiles/startup.elf.dir/Middlewares/OS/source/list.c.obj: \
+ /workspace/LED_FreeRTOS/Middlewares/OS/source/list.c \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdlib.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/alloca.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/FreeRTOS.h \
+ /workspace/LED_FreeRTOS/Application/FreeRTOSConfig.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/OS_stdint.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /opt/gcc-arm-none-eabi/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint-gcc.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/projdefs.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/portable.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/deprecated_definitions.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/portmacro.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/mpu_wrappers.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/list.h \
+ /workspace/LED_FreeRTOS/Middlewares/OS/include/FreeRTOS.h

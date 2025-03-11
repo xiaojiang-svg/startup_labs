@@ -1,0 +1,3 @@
+/workspace/LED_FreeRTOS/build/CMakeFiles/startup.elf.dir
+/workspace/LED_FreeRTOS/build/CMakeFiles/edit_cache.dir
+/workspace/LED_FreeRTOS/build/CMakeFiles/rebuild_cache.dir

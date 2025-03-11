@@ -14,12 +14,12 @@
       "executable": "${workspaceRoot}/build/output/startup.elf",
       "interface": "swd",
       "device": "STM32H743",
-      "configFiles": ["interface/stlink.cfg", "target/stm32h7x_dual_bank.cfg"],
+      "configFiles": ["interface/stlink.cfg", "${workspaceRoot}/Scripts/sys_stm32h7x.cfg"],
       "svdFile": "${workspaceRoot}/Script/stm32h743.svd",
       "runToEntryPoint": "main",
       "showDevDebugOutput":"both",
-      "preLaunchCommands": ["monitor halt","monitor sleep 10000"],
-      "postLaunchCommands": ["monitor reset","monitor flash probe 0"]
+      "preLaunchCommands": ["monitor halt","monitor sleep 2"],
+      "postLaunchCommands": ["monitor reset halt"]
     }
   ],
 }
