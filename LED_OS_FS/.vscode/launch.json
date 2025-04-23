@@ -1,0 +1,23 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ST-Link Cortex-M7 Debug",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "cwd": "${workspaceRoot}",
+      "executable": "${workspaceRoot}/build/output/startup.elf",
+      "interface": "swd",
+      "device": "STM32H743",
+      "configFiles": ["interface/stlink.cfg", "${workspaceRoot}/Scripts/sys_stm32h7x.cfg"],
+      "svdFile": "${workspaceRoot}/Script/stm32h743.svd",
+      "runToEntryPoint": "main",
+      "preLaunchCommands": ["monitor halt"],
+      "postLaunchCommands": ["load", "monitor reset", "monitor flash probe 0"]
+    }
+  ]
+}
